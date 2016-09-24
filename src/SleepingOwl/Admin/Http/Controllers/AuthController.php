@@ -60,7 +60,7 @@ class AuthController extends Controller
 	public function getLogout()
 	{
 		AdminAuth::logout();
-		return $this->redirect();
+		return redirect('/logout');
 	}
 
 }
