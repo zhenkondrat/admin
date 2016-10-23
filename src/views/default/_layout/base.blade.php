@@ -11,7 +11,9 @@
 	@foreach (\SleepingOwl\Admin\AssetManager\AssetManager::styles() as $style)
 		<link media="all" type="text/css" rel="stylesheet" href="{{ $style }}" >
 	@endforeach
-
+	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
